@@ -42,7 +42,7 @@ export default function Navbar() {
       <nav className="bg-surface w-full top-0 sticky border-b-custom border-on-surface z-50">
         <div className="flex justify-between items-center px-6 md:px-12 py-4 w-full max-w-7xl mx-auto">
           {/* Logo */}
-          <a href="#hero" className="h-16 md:h-20 w-auto flex items-center">
+          <a href="#hero" className="h-20 md:h-24 w-auto flex items-center">
             <img
               alt="FreelancerStudio Logo"
               className="h-full w-auto object-contain"

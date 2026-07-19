@@ -40,7 +40,7 @@ export default function Contact({ prefilledService, onClearPrefilled }: ContactP
 
   const serviceLabels: Record<string, string> = {
     webdev: 'Website Development',
-    ecommerce: 'Custom E-commerce (Next.js/Vercel)',
+    ecommerce: 'Premium Custom E-commerce',
     ai: 'AI Solutions Integration',
     brand: 'Brand Identity Manuals',
     uiux: 'UI/UX Figma Design',
@@ -277,7 +277,7 @@ export default function Contact({ prefilledService, onClearPrefilled }: ContactP
                         className="p-4 border-custom border-on-surface bg-surface text-xs font-bold focus:outline-none focus:border-primary focus:bg-white cursor-pointer"
                       >
                         <option value="webdev">Website Development</option>
-                        <option value="ecommerce">Custom E-commerce (Next.js/Vercel)</option>
+                        <option value="ecommerce">Premium Custom E-commerce</option>
                         <option value="ai">AI Solutions Integration</option>
                         <option value="brand">Brand Identity Manuals</option>
                         <option value="uiux">UI/UX Figma Design</option>

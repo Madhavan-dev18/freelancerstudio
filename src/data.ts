@@ -24,7 +24,7 @@ export const SERVICES: ServiceItem[] = [
     id: 'ecommerce',
     num: '02',
     title: 'Custom E-commerce',
-    bullets: ['Next.js / Headless', 'Vercel Edge Deployments', 'Stripe Gateways'],
+    bullets: ['Enterprise-Grade Architecture', 'Global Edge Infrastructure', 'Secure Payment Processing'],
     image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAXbGn33ZHUkggyqRKJZXVleW3KKb4QL4_lm0nPCoRDBaluKMPtpRjdUnYt355P1dGCoc7_1gGwXwXSGo9dcBsSvW-h4cf6Ze_gsCmryy7b9_Xa1f6C0iC8GJc2p6mdwBAlx_-rnC7Wsmr0M-tqyjBHvRlRVASenLkJ86NTTbw1vwyecWKD7a9k6yWxHfltKXMuJnTgtDlWNiO5NcVV6e6moBngJy6O_srnBNUr3To291OujmVNJLTlFQ',
     icon: 'ShoppingCart'
   },

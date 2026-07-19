@@ -28,7 +28,7 @@ export default function Pricing({ onOpenInquiryModal }: PricingProps) {
 
   const addonRates: Record<string, { label: string; basePrice: number }> = {
     webdev: { label: 'Web Application Development', basePrice: 8999 },
-    ecommerce: { label: 'Custom Headless E-Commerce (Next.js / Vercel)', basePrice: 5999 },
+    ecommerce: { label: 'Premium Headless E-Commerce', basePrice: 5999 },
     ai: { label: 'AI Integration & Chatbots', basePrice: 4999 },
     brand: { label: 'Complete Brand Identity Manual', basePrice: 2999 },
     uiux: { label: 'Figma UI/UX Schematics', basePrice: 2499 },
