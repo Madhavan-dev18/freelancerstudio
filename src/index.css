@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Hanken Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-primary: #ff8c00;
+  --color-on-surface: #191c1e;
+  --color-surface: #fcf8f9;
+  --color-on-surface-variant: #191c1e;
+  --color-primary-container: #ff8c00;
+  --color-on-primary: #ffffff;
+  --color-surface-container-low: #f6f3f4;
+  --color-surface-container-high: #ebe7e8;
+
+  --border-width-custom: 1.5px;
+}
+
+/* Custom scrollbar and smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-surface);
+  color: var(--color-on-surface);
+  overflow-x: hidden;
+}
+
+/* Base custom classes to match visual rigidity */
+.border-b-custom {
+  border-bottom: var(--border-width-custom) solid var(--color-on-surface);
+}
+
+.border-t-custom {
+  border-top: var(--border-width-custom) solid var(--color-on-surface);
+}
+
+.border-l-custom {
+  border-left: var(--border-width-custom) solid var(--color-on-surface);
+}
+
+.border-r-custom {
+  border-right: var(--border-width-custom) solid var(--color-on-surface);
+}
+
+.border-custom {
+  border: var(--border-width-custom) solid var(--color-on-surface);
+}
+
+.divide-y-custom > :not([hidden]) ~ :not([hidden]) {
+  border-top: var(--border-width-custom) solid var(--color-on-surface);
+}
+
+/* Animation utilities for crisp, high-end transitions */
+.transition-all-custom {
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
