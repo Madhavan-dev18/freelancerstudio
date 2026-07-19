@@ -40,14 +40,26 @@ export default function Navbar() {
     <>
       {/* Top Navigation Bar */}
       <nav className="bg-surface w-full top-0 sticky border-b-custom border-on-surface z-50">
-        <div className="flex justify-between items-center px-6 md:px-12 py-4 w-full max-w-7xl mx-auto">
+        <div className="flex justify-between items-center px-6 md:px-12 py-2 md:py-4 w-full max-w-7xl mx-auto">
           {/* Logo */}
-          <a href="#hero" className="h-20 md:h-24 w-auto flex items-center">
+          <a href="#hero" className="h-[72px] md:h-24 w-auto flex items-center justify-center">
             <img
               alt="FreelancerStudio Logo"
-              className="h-full w-auto object-contain"
+              className="h-[90%] md:h-full w-auto object-contain"
               src="/logo.png"
             />
+          </a>
+
+          {/* Mobile Status Button */}
+          <a
+            href="#contact"
+            className="md:hidden flex items-center gap-2 px-3 py-1.5 border-custom border-on-surface bg-surface hover:bg-primary hover:border-primary hover:text-surface transition-all text-[9px] font-mono font-black uppercase tracking-widest text-on-surface"
+          >
+            <span className="relative flex h-1.5 w-1.5">
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+              <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-green-500"></span>
+            </span>
+            Available
           </a>
 
           {/* Desktop Nav Links */}
