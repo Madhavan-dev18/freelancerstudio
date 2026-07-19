@@ -26,7 +26,7 @@ export default function Hero() {
 
   return (
     <section
-      className="min-h-screen flex items-center px-6 md:px-12 py-16 md:py-24 bg-surface overflow-hidden border-b-custom border-on-surface relative"
+      className="min-h-[80vh] md:min-h-screen flex items-start md:items-center px-6 md:px-12 pt-16 md:pt-0 py-16 md:py-24 bg-surface overflow-hidden border-b-custom border-on-surface relative"
       id="hero"
     >
       {/* Structural background lines & grid watermark */}
