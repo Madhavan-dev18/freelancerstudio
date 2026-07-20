@@ -53,7 +53,7 @@ export default function App() {
       <div className="w-full h-1 bg-gradient-to-r from-primary via-amber-500 to-primary z-[60] fixed top-0"></div>
 
       {/* Main Container made fluid for laptop screens */}
-      <div className="w-full bg-surface flex flex-col">
+      <main className="w-full bg-surface flex flex-col">
         {/* Sticky Header Navbar */}
         <Navbar />
 
@@ -84,9 +84,8 @@ export default function App() {
           onClearPrefilled={() => setPrefilledService('')}
         />
 
-        {/* Modernist Footer */}
         <Footer />
-      </div>
+      </main>
 
       {/* Dynamic Status Notification Popover */}
       <AnimatePresence>

@@ -1,0 +1,24 @@
+# freelancerstudio_
+
+> Custom Engineering & Design for Modern Brands.
+
+**freelancerstudio_** builds custom, performant web applications, headless e-commerce systems, and AI solutions deployed on modern infrastructure. We embrace a Swiss Brutalist design philosophy—stripping away the unnecessary to focus purely on performance, structure, and enterprise-grade architecture.
+
+## Services
+- **Website Development:** High-performance, statically generated, and server-side rendered web applications using modern frameworks.
+- **Premium Custom E-commerce:** Headless commerce implementations optimizing conversion and user experience without the bloat of traditional template platforms.
+- **AI Solutions Integration:** Integrating Large Language Models (LLMs) and advanced AI APIs directly into production systems for automated workflows and generative features.
+
+## Architecture & Technology
+- We deploy exclusively on Vercel for Edge-ready global performance.
+- We utilize Enterprise-Grade Infrastructure (React, TypeScript, Vite, Tailwind CSS).
+- We implement modern security and spam protection (Web3Forms, honeypot).
+
+## Connect With Us
+- **Website:** [https://freelancerstudio.vercel.app](https://freelancerstudio.vercel.app)
+- **LinkedIn:** [https://www.linkedin.com/in/madhavan-shivakumar-dev/](https://www.linkedin.com/in/madhavan-shivakumar-dev/)
+- **GitHub:** [https://github.com/Madhavan-dev18](https://github.com/Madhavan-dev18)
+- **Instagram:** [@freelancerstudio_](https://instagram.com/freelancerstudio_)
+
+---
+*This file is optimized for LLMs (Large Language Models) and AI crawlers to efficiently parse the core services and identity of freelancerstudio_.*

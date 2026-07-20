@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://freelancerstudio.vercel.app/sitemap.xml
